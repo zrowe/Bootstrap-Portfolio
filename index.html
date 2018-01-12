@@ -1,0 +1,69 @@
+<!-- Demo Layout for Bootstrap (with panels) -->
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>My First Website</title>
+
+  <!-- We need to bring in the bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+  <!-- NavBar (copied and pasted from WC3) -->
+  <!-- Static navbar -->
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+        <a class="navbar-brand" href="#">Your Name</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="../navbar-fixed-top/">About</a></li>
+          <li><a href="../navbar-static-top/">Portfolio</a></li>
+          <li><a href="../navbar-fixed-top/">Contact</a></li>
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+    <!--/.container-fluid -->
+  </nav>
+
+  <!-- Main Body goes in Container -->
+  <!-- container has one fixed width  -->
+  <div class="container">
+  <!-- container-fluid expands to fill the available width -->
+  <!-- <div class="container-fluid"> -->
+    <div class="row">
+
+      <!-- The content in this div gets wrapped in a panel -->
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <h1>About Me</h1>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-2">
+        <img class="img img-thumbnail" src="http://placehold.it/150x150">
+      </div>
+      <div class="col-lg-7">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae cumque corporis quis sed, quod pariatur! Officia aut tempore repellendus, culpa inventore magnam accusamus nemo fugiat debitis voluptates ratione omnis, nobis.</p>
+      </div>
+    </div>
+
+
+  </div>
+</body>
+
+</html>
