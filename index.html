@@ -1,69 +1,83 @@
-<!-- Demo Layout for Bootstrap (with panels) -->
 <!DOCTYPE html>
 <html lang="en-us">
 
 <head>
-
-  <meta charset="UTF-8">
-  <title>My First Website</title>
-
-  <!-- We need to bring in the bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Boostrap-Portfolio</title>
+    <!-- We need to bring in the bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- And local stylings -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-
-  <!-- NavBar (copied and pasted from WC3) -->
-  <!-- Static navbar -->
-  <nav class="navbar navbar-default">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-        <a class="navbar-brand" href="#">Your Name</a>
-      </div>
-      <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="../navbar-fixed-top/">About</a></li>
-          <li><a href="../navbar-static-top/">Portfolio</a></li>
-          <li><a href="../navbar-fixed-top/">Contact</a></li>
-        </ul>
-      </div>
-      <!--/.nav-collapse -->
-    </div>
-    <!--/.container-fluid -->
-  </nav>
-
-  <!-- Main Body goes in Container -->
-  <!-- container has one fixed width  -->
-  <div class="container">
-  <!-- container-fluid expands to fill the available width -->
-  <!-- <div class="container-fluid"> -->
-    <div class="row">
-
-      <!-- The content in this div gets wrapped in a panel -->
-      <div class="panel panel-default">
-        <div class="panel-body">
-          <h1>About Me</h1>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Paul Rowe</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="../navbar-fixed-top/">About</a></li>
+                    <li><a href="../navbar-static-top/">Portfolio</a></li>
+                    <li><a href="../navbar-fixed-top/">Contact</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
         </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-2">
-        <img class="img img-thumbnail" src="http://placehold.it/150x150">
-      </div>
-      <div class="col-lg-7">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae cumque corporis quis sed, quod pariatur! Officia aut tempore repellendus, culpa inventore magnam accusamus nemo fugiat debitis voluptates ratione omnis, nobis.</p>
-      </div>
-    </div>
-
-
-  </div>
+        <!--/.container-fluid -->
+    </nav>
+    <main class="container">
+        <div class="row">
+            <div class="col-lg-9">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <h1>About Me</h1>
+                        <hr>
+                        <img class="img  img-responsive" src="assets/images/profile.jpg">
+                        <p>Phasellus vel eleifend ligula. Donec euismod pharetra felis nec finibus. Cras dictum ornare elit vel vestibulum. Vestibulum vitae ex id eros venenatis feugiat. In blandit sed dui non cursus. In vel turpis ut lectus faucibus accumsan a vel est. Integer laoreet porttitor metus, ut pulvinar risus interdum at. Aliquam lacinia metus eu lectus blandit elementum. Duis ac arcu non ligula egestas interdum. Proin dapibus vel risus a egestas.</p>
+                        <p>Maecenas luctus venenatis varius. Vivamus in mi dolor. Aenean turpis tortor, fermentum ac dui in, euismod pretium mi. Ut mattis nunc tellus, ac vestibulum nulla suscipit efficitur. Phasellus a dictum tellus. Curabitur accumsan est id leo aliquam, quis blandit purus mattis. Curabitur viverra eros et felis fringilla auctor.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <h1>Connect with Me</h1>
+                        <hr>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <a href="https://github.com/zrowe" target=”_blank”><img src="assets/images/GitHub-Mark-64px.png" height="60" width="60" alt="github icon" class="icons"> </a>
+                            </div>
+                            <div class="col-lg-4">
+                                <a href="https://www.linkedin.com/in/zrowe/" target=”_blank”><img src="assets/images/In-2C-59px-R.png" height="60" width="60" alt="linkedin icon" class="icons"></a>
+                            </div>
+                            <div class="col-lg-4">
+                                <a href="https://stackoverflow.com/users/9170937/paul-rowe" target=”_blank”><img src="assets/images/so-icon.png" height="60" width="60" alt="stackoverflow icon" class="icons"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="navbar-inverse navbar-fixed-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>&copy; Copyright 2017 Paul Rowe
+                        <p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
