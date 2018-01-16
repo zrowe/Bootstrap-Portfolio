@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Boostrap-Portfolio</title>
+    <!-- We need to bring in the bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- And local stylings -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Paul Rowe</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+        <!--/.container-fluid -->
+    </nav>
+    <main class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="panel panel-default">
+                    <article class="panel-body author">
+                        <h1>Contact</h1>
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Name:</label>
+                                <input type="text" class="form-control" id="fullname" placeholder="John Smith">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" class="form-control" id="emailaddr" placeholder="example@gmail.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message:</label>
+                                <textarea type="textarea" class="form-control" id="message" placeholder=""></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-default">Submit</button>
+                        </form>
+                    </article>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <aside class="panel-body">
+                        <h2>Connect with Me</h2>
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <a href="https://github.com/zrowe" target=”_blank”><img src="assets/images/GitHub-Mark-64px.png" height="60" width="60" alt="github icon" class="icons"> </a>
+                            </div>
+                            <div class="col-xs-4">
+                                <a href="https://www.linkedin.com/in/zrowe/" target=”_blank”><img src="assets/images/In-2C-59px-R.png" height="60" width="60" alt="linkedin icon" class="icons"></a>
+                            </div>
+                            <div class="col-xs-4">
+                                <a href="https://stackoverflow.com/users/9170937/paul-rowe" target=”_blank”><img src="assets/images/so-icon.png" height="60" width="60" alt="stackoverflow icon" class="icons"></a>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="navbar-inverse navbar-fixed-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>&copy; Copyright 2017 Paul Rowe
+                        <p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
