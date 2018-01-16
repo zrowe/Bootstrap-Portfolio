@@ -41,11 +41,14 @@ footer {
     font-size: 30px;
     font-weight: 700;
     /*    line-height: 90px; */
-    color: #fff;
+    color: #fff !important; 
     background: #4aaaa5;
     margin-left: 0px;
 }
-
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+     background: #4aaaa5;
+}
 .panel {
     border: 2px solid #dddddd;
 }
@@ -66,13 +69,8 @@ aside h2 {
 }
 
 
-input[type=submit] {
-    background-color: #4aaaa5;
-    border: none;
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
-    font-size: 20px;
+.form-control {
+   border-radius: 0px;
 }
 
 textarea {
@@ -80,6 +78,11 @@ textarea {
     max-height: 100%;
 }
 
+.btn-default {
+    color: #fff;
+    background-color: #4aaaa5;
+    border-radius: 0px;
+}
 
 /**/
 /* Attributes for portfolio images */
