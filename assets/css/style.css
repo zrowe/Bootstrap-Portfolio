@@ -49,6 +49,13 @@ footer {
 .navbar-default .navbar-brand:focus {
      background: #4aaaa5;
 }
+
+/*
+.navbar-default .navbar-nav li:not(:last-child) {
+    border-right:1px solid #ddd;
+}
+*/
+
 .panel {
     border: 2px solid #dddddd;
 }
