@@ -1,5 +1,5 @@
 html {
-    position:relative;
+    position: relative;
     min-height: 100%;
 }
 
@@ -46,14 +46,16 @@ footer {
     font-size: 30px;
     font-weight: 700;
     /*    line-height: 90px; */
-    color: #fff !important; 
+    color: #fff !important;
     background: #4aaaa5;
     margin-left: 0px !important;
 }
+
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-     background: #4aaaa5;
+    background: #4aaaa5;
 }
+
 
 /*
 .navbar-default .navbar-nav li:not(:last-child) {
@@ -71,6 +73,7 @@ footer {
   border-bottom:1px solid magenta;
 }
 */
+
 .panel {
     border: 2px solid #dddddd;
 }
@@ -91,7 +94,7 @@ aside h2 {
 }
 
 .form-control {
-   border-radius: 0px;
+    border-radius: 0px;
 }
 
 textarea {
@@ -105,8 +108,13 @@ textarea {
     border-radius: 0px;
 }
 
+
 /**/
+
+
 /* Attributes for portfolio images */
+
+
 /**/
 
 .floating-box {
@@ -126,3 +134,4 @@ textarea {
     background-color: #4aaaa5;
     color: white;
 }
+
